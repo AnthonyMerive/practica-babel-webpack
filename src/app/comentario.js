@@ -1,3 +1,5 @@
+import {fetch as fetchPolyfill} from 'whatwg-fetch'
+
 class Comentario{
     
     async obtenerCategorias(){

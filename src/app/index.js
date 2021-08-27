@@ -1,3 +1,4 @@
+import {fetch as fetchPolyfill} from 'whatwg-fetch'
 import Comentario from './comentario';
 import './style.css';
 async function inicio(){
